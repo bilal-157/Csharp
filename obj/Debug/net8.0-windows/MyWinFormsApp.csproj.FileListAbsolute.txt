@@ -1,0 +1,14 @@
+C:\shaka\C#\MyWinFormsApp\bin\Debug\net8.0-windows\MyWinFormsApp.exe
+C:\shaka\C#\MyWinFormsApp\bin\Debug\net8.0-windows\MyWinFormsApp.deps.json
+C:\shaka\C#\MyWinFormsApp\bin\Debug\net8.0-windows\MyWinFormsApp.runtimeconfig.json
+C:\shaka\C#\MyWinFormsApp\bin\Debug\net8.0-windows\MyWinFormsApp.dll
+C:\shaka\C#\MyWinFormsApp\bin\Debug\net8.0-windows\MyWinFormsApp.pdb
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.AssemblyInfoInputs.cache
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.AssemblyInfo.cs
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.csproj.CoreCompileInputs.cache
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.dll
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\refint\MyWinFormsApp.dll
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.pdb
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.genruntimeconfig.cache
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\ref\MyWinFormsApp.dll
