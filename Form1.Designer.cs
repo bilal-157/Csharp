@@ -3,17 +3,17 @@
 partial class Form1
 {
     /// <summary>
-    ///  Required designer variable.
+    /// Required designer variable.
     /// </summary>
     private System.ComponentModel.IContainer components = null;
-    
-    // UI Elements
-    private System.Windows.Forms.Label myLabel;
-    private System.Windows.Forms.TextBox myTextBox;
-    private System.Windows.Forms.Button myButton;
+
+    // UI Elements (Declared at Class Level)
+    private System.Windows.Forms.Label[] labels;
+    private System.Windows.Forms.TextBox[] textBoxes;
+    private System.Windows.Forms.Button submitButton;
 
     /// <summary>
-    ///  Clean up any resources being used.
+    /// Clean up any resources being used.
     /// </summary>
     protected override void Dispose(bool disposing)
     {
@@ -27,43 +27,49 @@ partial class Form1
     #region Windows Form Designer generated code
 
     /// <summary>
-    ///  Required method for Designer support - do not modify
-    ///  the contents of this method with the code editor.
+    /// Required method for Designer support - do not modify
+    /// the contents of this method with the code editor.
     /// </summary>
     private void InitializeComponent()
     {
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "My First Windows Form";
+        this.ClientSize = new System.Drawing.Size(500, 400);
+        this.Text = "Student Information";
 
-        // 🔹 Label
-        this.myLabel = new System.Windows.Forms.Label();
-        this.myLabel.Text = "Enter Your Name:";
-        this.myLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-        this.myLabel.ForeColor = System.Drawing.Color.DarkBlue;
-        this.myLabel.AutoSize = true;
-        this.myLabel.Location = new System.Drawing.Point(50, 50);
+        // 🔹 Labels and TextBoxes for Student Details
+        string[] labelTexts = { "Name:", "Father Name:", "Roll No:", "Class:", "Email:", "Phone:" };
+        labels = new System.Windows.Forms.Label[labelTexts.Length];
+        textBoxes = new System.Windows.Forms.TextBox[labelTexts.Length];
 
-        // 🔹 TextBox
-        this.myTextBox = new System.Windows.Forms.TextBox();
-        this.myTextBox.Location = new System.Drawing.Point(200, 50);
-        this.myTextBox.Size = new System.Drawing.Size(200, 30);
+        for (int i = 0; i < labelTexts.Length; i++)
+        {
+            // Create and position labels
+            labels[i] = new System.Windows.Forms.Label();
+            labels[i].Text = labelTexts[i];
+            labels[i].Location = new System.Drawing.Point(20, 30 + i * 40);
+            labels[i].AutoSize = true;
+            this.Controls.Add(labels[i]);
 
-        // 🔹 Button
-        this.myButton = new System.Windows.Forms.Button();
-        this.myButton.Text = "Click Me";
-        this.myButton.Size = new System.Drawing.Size(100, 40);
-        this.myButton.Location = new System.Drawing.Point(200, 100);
-        this.myButton.BackColor = System.Drawing.Color.White;
+            // Create and position textboxes
+            textBoxes[i] = new System.Windows.Forms.TextBox();
+            textBoxes[i].Location = new System.Drawing.Point(150, 30 + i * 40);
+            textBoxes[i].Size = new System.Drawing.Size(200, 30);
+            this.Controls.Add(textBoxes[i]);
+        }
 
-        // 🔹 Button Click Event (Calls the function in Form1.cs)
-        this.myButton.Click += new System.EventHandler(this.MyButton_Click);
+        // 🔹 Submit Button
+        submitButton = new System.Windows.Forms.Button();
+        submitButton.Text = "Submit";
+        submitButton.Size = new System.Drawing.Size(100, 40);
+        submitButton.Location = new System.Drawing.Point(150, 280);
+        submitButton.BackColor = System.Drawing.Color.LightGray;
 
-        // 🔹 Add Controls to Form
-        this.Controls.Add(this.myLabel);
-        this.Controls.Add(this.myTextBox);
-        this.Controls.Add(this.myButton);
+        // 🔹 Assign Event Handler (Defined in Form1.cs)
+        submitButton.Click += new System.EventHandler(this.SubmitButton_Click);
+
+        // 🔹 Add Button to Form
+        this.Controls.Add(submitButton);
     }
 
     #endregion

@@ -12,3 +12,4 @@ C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\refint\MyWinFormsApp.dll
 C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.pdb
 C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.genruntimeconfig.cache
 C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\ref\MyWinFormsApp.dll
+C:\shaka\C#\MyWinFormsApp\obj\Debug\net8.0-windows\MyWinFormsApp.sourcelink.json
