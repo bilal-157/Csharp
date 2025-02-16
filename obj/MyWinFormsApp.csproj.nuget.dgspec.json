@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\shaka\\C#\\MyWinFormsApp\\MyWinFormsApp.csproj": {}
+    "C:\\shaka\\c#\\MyWinFormsApp\\MyWinFormsApp.csproj": {}
   },
   "projects": {
-    "C:\\shaka\\C#\\MyWinFormsApp\\MyWinFormsApp.csproj": {
+    "C:\\shaka\\c#\\MyWinFormsApp\\MyWinFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\shaka\\C#\\MyWinFormsApp\\MyWinFormsApp.csproj",
+        "projectUniqueName": "C:\\shaka\\c#\\MyWinFormsApp\\MyWinFormsApp.csproj",
         "projectName": "MyWinFormsApp",
-        "projectPath": "C:\\shaka\\C#\\MyWinFormsApp\\MyWinFormsApp.csproj",
+        "projectPath": "C:\\shaka\\c#\\MyWinFormsApp\\MyWinFormsApp.csproj",
         "packagesPath": "C:\\Users\\ik\\.nuget\\packages\\",
-        "outputPath": "C:\\shaka\\C#\\MyWinFormsApp\\obj\\",
+        "outputPath": "C:\\shaka\\c#\\MyWinFormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ik\\AppData\\Roaming\\NuGet\\NuGet.Config"
